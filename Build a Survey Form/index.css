@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    background: #444343;
+  }
+  #main {
+    background: #1c1c1c;
+    height: 500px;
+    width: 350px;
+  }
+  #title {
+    font-size: 40px;
+  }
+  #survey-form {
+    padding: 12px;
+    text-align: left;
+  }
+  .label-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

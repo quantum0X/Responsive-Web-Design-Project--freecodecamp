@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Servey Form</h1>
+      <p id="description">This is Servey belongs from MYHEALTH.COM 
+        <hr>
+      <form id="survey-form">
+        <label class="label-text" id="name-label">Name : </label>
+        <input id="name" type="text" placeholder="Enter your name" name="" required>
+        <p>
+          <label class="label-text">Gender : </label>
+          <input id="gender-select" type="radio" name="gender" value=1>Male
+          <input id="gender-select" type="radio" name="gender" value=2>Female
+        <p>
+          <label class="label-text" id="email-label"> E-mail : </label>
+          <input id="email" type="email" placeholder="Enter your E-mail" required>
+        <p>
+          <label class="label-text" id="number-label"> Mobile : </label>
+          <input id="number" type="number" min="0000000000" max="9999999999" placeholder="Enter your Mobile No." required>
+        <p>
+          <label class="label-text">Age :</label>
+          <select id="dropdown">
+            <option>Below 16</option>
+            <option>16yr - 18yr</option>
+            <option>18yr - 25yr</option>
+            <option>25yr - 35yr</option>
+            <option>35yr - 50yr</option>
+            <option>50yr above</option>
+          </select>
+        <p>
+          <label class="label-text">Sleep: </label>
+          <input type="checkbox" name="wakeup" value="1">6 - 7 hr
+          <input type="checkbox" name="wakeup" value="1">7 - 8 hr
+          <input type="checkbox" name="wakeup" value="1">8+ hr
+        <p>
+          <textarea placeholder="your que"></textarea>
+        <p>
+          <input type="checkbox" value="yes">Notify me.
+        <p>
+          <button id="submit">Submit</submit>
+      </form>
+      </div>
+
+</body>
+</html>
